@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title>Add Data</title>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<body>
+	<div class="container mt-5">
+		<h3 class="text-center">Tambah Data</h3>
+	<a class=" btn btn-danger" href="index.php">Back</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<div class="form-group">
+			<label for="npsn">npsn</label>
+			<input type="text" class="form-control" name="npsn" id="npsn">
+		</div>
+		<div class="form-group">
+			<label for="npsn">status</label>
+			<select class="form-control" name="status" id="status">
+				<option selected>--</option>
+				<option value="TK">Negeri</option>
+				<option value="SD">Swasta</option>
+
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="npsn">bentuk_pendidikan</label>
+			<select class="form-control" name="bentuk_pendidikan" id="bentuk_pendidikan">
+				<option selected>--</option>
+				<option value="TK">TK</option>
+				<option value="SD">SD</option>
+				<option value="SMP">SMP</option>
+				<option value="SMA">SMA</option>
+				<option value="SMk">SMk</option>
+			</select>
+		</div>
+		<div class="form-group">
+			<label for="npsn">nama_sekolah</label>
+			<input type="text" class="form-control" name="nama_sekolah" id="nama_sekolah">
+		</div>
+		<div class="form-group">
+			<label for="npsn">sk_pendirian</label>
+			<input type="text" class="form-control" name="sk_pendirian" id="sk_pendirian">
+		</div>
+		<div class="form-group">
+			<label for="npsn">tgl_pendirian</label>
+			<input type="date" class="form-control" name="tgl_pendirian" id="tgl_pendirian">
+		</div>
+		<div class="form-group">
+			<label for="npsn">sk_izin_operasional</label>
+			<input type="text" class="form-control" name="sk_izin_operasional" id="sk_izin_operasional">
+		</div>
+		<div class="form-group">
+			<label for="npsn">tgl_izin_operasional</label>
+			<input type="date" class="form-control" name="tgl_izin_operasional" id="tgl_izin_operasional">
+		</div>
+		<div class="form-group">
+			<label for="npsn">alamat</label>
+			<input type="text" class="form-control" name="alamat" id="alamat">
+		</div>
+		<div class="form-group">
+			<label for="npsn">rt</label>
+			<input type="text" class="form-control" name="rt" id="rt">
+		</div>
+		<div class="form-group">
+			<label for="npsn">rw</label>
+			<input type="text" class="form-control" name="rw" id="rw">
+		</div>
+		<div class="form-group">
+			<label for="npsn">dusun</label>
+			<input type="text" class="form-control" name="dusun" id="dusun">
+		</div>
+		<div class="form-group">
+			<label for="npsn">desa</label>
+			<input type="text" class="form-control" name="desa" id="desa">
+		</div>
+		<div class="form-group">
+			<label for="npsn">kecamatan</label>
+			<input type="text" class="form-control" name="kecamatan" id="kecamatan">
+		</div>
+		<div class="form-group">
+			<label for="npsn">kabupaten</label>
+			<input type="text" class="form-control" name="kabupaten" id="kabupaten">
+		</div>
+		<div class="form-group">
+			<label for="npsn">provinsi</label>
+			<input type="text" class="form-control" name="provinsi" id="provinsi">
+		</div>
+		<div class="form-group">
+			<label for="npsn">kode_pos</label>
+			<input type="text" class="form-control" name="kode_pos" id="kode_pos">
+		</div>
+		<button class="btn btn-primary mx-auto" type="submit" name="submit">Save</button>
+	</form>
+</div>
+</body>
+</html>
+
